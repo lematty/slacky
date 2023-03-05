@@ -1,0 +1,18 @@
+{
+  "name": "slacky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx tsc --watch",
+    "start-ee": "node dist/economic-events/economic-events.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.8.1",
+    "dotenv": "^16.0.3"
+  }
+}
